@@ -1,0 +1,11 @@
+.SearchBox input {
+  margin-right: 1.2rem;
+  border: none;
+  border-bottom: 2px solid var(--black);
+  font-size: 1.2rem;
+  outline: none;
+  padding: 0.45rem;
+}
+.SearchBox button {
+  width: 7rem;
+}

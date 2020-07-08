@@ -1,0 +1,21 @@
+.ProductCard-image {
+  filter: grayscale(0%);
+}
+.ProductCard-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--lightblue);
+}
+.ProductCard-btn {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  padding: 0.7rem;
+  width: 70%;
+  height: 50px;
+  opacity: 0.5;
+}
+.ProductCard-btn:hover {
+  opacity: 1;
+}

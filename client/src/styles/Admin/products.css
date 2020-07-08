@@ -1,0 +1,26 @@
+.Products-Main {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 3rem 0;
+}
+.Products-Main-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.Products-Main-Header button {
+  width: 20rem;
+  background-color: var(--blue);
+}
+.Products-Main-Header button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+.table-products th {
+  text-align: center;
+}
+.table-products td {
+  text-align: center;
+  padding-top: 2.2rem;
+}

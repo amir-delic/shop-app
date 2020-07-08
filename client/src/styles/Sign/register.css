@@ -1,0 +1,21 @@
+.Register-main {
+  background-color: var(--lightblue);
+  border-radius: 1rem;
+  width: 30rem;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+.Register-main input {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  border: none;
+  border-bottom: 1px solid var(--black);
+  background-color: var(--lightblue);
+  outline: none;
+}
+.Register-main button {
+  font-size: 1.3rem;
+}

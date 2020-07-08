@@ -1,0 +1,26 @@
+.Customers-Main {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 3rem 0;
+}
+.Customers-Main-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.Customers-Main-Header button {
+  width: 20rem;
+  background-color: var(--blue);
+}
+.Customers-Main-Header button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+.table-customers th {
+  text-align: center;
+}
+.table-customers td {
+  text-align: center;
+  padding-top: 1.3rem;
+}

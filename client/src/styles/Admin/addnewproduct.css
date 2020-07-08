@@ -1,0 +1,24 @@
+.AddNewProduct {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 3rem 0;
+}
+.AddNewProduct-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.AddNewProduct-Header button {
+  width: 20rem;
+}
+.AddNewProduct-Main {
+  width: 50%;
+  margin: 2.2rem auto;
+}
+.AddNewProduct-Main input {
+  font-size: 1rem;
+}
+.AddNewProduct-Main button {
+  height: 5rem;
+}

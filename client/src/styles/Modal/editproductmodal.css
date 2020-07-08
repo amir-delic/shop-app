@@ -1,0 +1,35 @@
+.EditProductModal {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 2rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.EditProductModal-Image {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.EditProductModal-Main {
+  width: 30rem;
+  margin-left: 35%;
+  background-color: var(--lightblue);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.EditProductModal-Main h3 {
+  font-family: "Dancing Script", cursive;
+}
+.EditProductModal-Main input {
+  border: none;
+  border-bottom: 1px solid var(--black);
+  background-color: var(--lightblue);
+  border-radius: 0;
+}
+.EditProductModal-Main button {
+  margin-bottom: 5px;
+}

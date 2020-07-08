@@ -1,0 +1,37 @@
+.Contact {
+  background-color: var(--lightblue);
+  padding-top: 2rem;
+  text-align: center;
+}
+.Contact .fas {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+}
+.Contact .fas:hover {
+  transform: rotate(720deg);
+  color: var(--blue);
+  transition: all 2s ease;
+}
+.Contact h6 {
+  font-size: 1rem;
+}
+.Contact h6 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.Contact .card {
+  height: 350px;
+  padding: 2rem;
+}
+.Contact .card:hover {
+  transform: none;
+  transition: none;
+  cursor: auto;
+}
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1493146146946-e907f69cdf23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80");
+  background-size: cover;
+  height: 100%;
+  color: var(--white);
+  object-fit: cover;
+}

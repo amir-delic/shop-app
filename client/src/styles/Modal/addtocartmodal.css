@@ -1,0 +1,43 @@
+.modal-shop {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 35px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.modal-shop-img img {
+  width: 65%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.modal-item {
+  width: 33%;
+  margin-left: 35%;
+  background-color: var(--lightblue);
+  padding: 2rem;
+  border-radius: 15px;
+}
+.modal-item h3 {
+  font-family: "Dancing Script", cursive;
+}
+.modal-item h4 {
+  font-family: "Dancing Script", cursive;
+  margin: 1rem 0;
+}
+.modal-item h6 {
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 1rem 2.6rem;
+}
+.info-span {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.modal-item button {
+  width: 80%;
+  margin-bottom: 5px;
+}

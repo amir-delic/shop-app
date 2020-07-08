@@ -1,0 +1,22 @@
+.cart-table {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.cart-table td {
+  text-align: center;
+  padding-top: 60px;
+}
+.cart-table .cart-description {
+  text-align: center;
+  padding-top: 67px;
+}
+.MyCart h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.MyCart-footer {
+  height: 100vh;
+}

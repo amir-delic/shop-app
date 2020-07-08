@@ -1,0 +1,15 @@
+.UserItem-Image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.UserItem-Trash {
+  font-size: 1.3rem;
+}
+.UserItem-Trash:hover {
+  transform: scale(1.5);
+  color: var(--blue);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}

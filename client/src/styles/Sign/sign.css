@@ -1,0 +1,20 @@
+.Sign {
+  min-height: calc(100vh - 50px);
+  background: url("https://images.unsplash.com/photo-1591025293234-8f6c3519e118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
+    center/cover no-repeat;
+}
+.Sign h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  padding-top: 1rem;
+}
+.Sign-main {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 992px) {
+  .Sign-main {
+    display: block;
+    text-align: center;
+  }
+}
